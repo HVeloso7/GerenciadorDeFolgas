@@ -1,89 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<readme>
-  <title>🗓️ Gerenciador de Folgas</title>
+# 🗓️ Gerenciador de Folgas  
 
-  <link>
-    🔗 <b>Link para acessar o projeto:</b> 
-    <a href="https://gerenciador-de-folgas.vercel.app">https://gerenciador-de-folgas.vercel.app</a>
-  </link>
+🔗 **Link para acessar o projeto:**  
+👉 [https://gerenciador-de-folgas.vercel.app](https://gerenciador-de-folgas.vercel.app)
 
-  <section title="🧠 Sobre o Projeto">
-    <p>
-      O <b>Gerenciador de Folgas</b> é um sistema em desenvolvimento criado para 
-      <b>organizar, visualizar e gerenciar as folgas mensais dos funcionários</b> de uma empresa.
-    </p>
+---
 
-    <p>
-      O objetivo é facilitar o controle de escalas, promovendo uma <b>melhor gestão de horários</b>,
-      <b>cumprimento da legislação trabalhista</b> e <b>redução de conflitos de agenda</b>.
-    </p>
+## 🧠 Sobre o Projeto  
 
-    <p>
-      Além da organização interna, o sistema também auxiliará na <b>montagem das escalas de trabalho</b>,
-      considerando:
-    </p>
+O **Gerenciador de Folgas** é um sistema em desenvolvimento criado para **organizar, visualizar e gerenciar as folgas mensais dos funcionários** de uma empresa.  
 
-    <list>
-      <item>📍 Regiões e horários específicos de atuação</item>
-      <item>🕒 Duração das jornadas conforme os dias da semana</item>
-      <item>⚖️ Regras de descanso e limites legais de carga horária</item>
-    </list>
-  </section>
+O objetivo é facilitar o **controle de escalas**, promovendo uma **melhor gestão de horários**, **cumprimento da legislação trabalhista** e **redução de conflitos de agenda**.  
 
-  <section title="⚙️ Funcionalidades Previstas">
-    <subsection title="👩‍💼 Para Funcionários">
-      <list>
-        <item>📅 Visualizar as folgas do mês em um calendário</item>
-        <item>🔄 Solicitar troca de folga com outro colaborador</item>
-        <item>✅ Acompanhar o status das solicitações (pendente, aprovada ou recusada)</item>
-      </list>
-    </subsection>
+Além da organização interna, o sistema também auxiliará na **montagem das escalas de trabalho**, considerando:  
 
-    <subsection title="👨‍💼 Para Gestores">
-      <list>
-        <item>👥 Visualizar a escala de todos os funcionários</item>
-        <item>✔️ Aprovar ou recusar solicitações de troca</item>
-        <item>📊 Atualizar o calendário oficial após aprovações</item>
-      </list>
-    </subsection>
-  </section>
+- 📍 Regiões e horários específicos de atuação  
+- 🕒 Duração das jornadas conforme os dias da semana  
+- ⚖️ Regras de descanso e limites legais de carga horária  
 
-  <section title="🧩 Tecnologias Utilizadas">
-    <list>
-      <item>⚛️ <b>Front-end:</b> React JS, HTML5, CSS3, JavaScript (ES6+), Axios</item>
-      <item>🖥️ <b>Back-end (planejado):</b> Java com Spring Boot, API REST, JWT</item>
-      <item>💾 <b>Banco de Dados (planejado):</b> MySQL</item>
-      <item>🛠️ <b>Outras Ferramentas:</b> Git/GitHub, Vercel</item>
-    </list>
-  </section>
+---
 
-  <section title="🚀 Status do Projeto">
-    <p>
-      🔹 <b>Fase atual:</b> Desenvolvimento inicial da interface principal (Home do sistema)
-    </p>
-    <p><b>Próximas etapas:</b></p>
-    <list>
-      <item>1️⃣ Implementar o calendário interativo de folgas</item>
-      <item>2️⃣ Criar sistema de login e autenticação</item>
-      <item>3️⃣ Desenvolver API e integração com banco de dados</item>
-    </list>
-  </section>
+## ⚙️ Funcionalidades Previstas  
 
-  <section title="🧑‍💻 Autor">
-    <p>
-      <b>Desenvolvido por:</b> Hélio Veloso<br/>
-      <b>LinkedIn:</b> 
-      <a href="https://www.linkedin.com/in/hélio-vianey-carreiro-veloso-filho-a6b756228">
-      hélio-vianey-carreiro-veloso-filho-a6b756228</a><br/>
-      🎓 Estudante de Engenharia de Software — Anhanguera Educacional<br/>
-      💼 Apaixonado por tecnologia, programação e soluções criativas
-    </p>
-  </section>
+### 👩‍💼 Para Funcionários  
 
-  <section title="💬 Contribuições">
-    <p>
-      Esse projeto ainda está em fase inicial, mas <b>qualquer sugestão, correção ou feedback é bem-vinda</b>.
-      Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-    </p>
-  </section>
-</readme>
+- 📅 Visualizar as folgas do mês em um calendário interativo  
+- 🔄 Solicitar troca de folga com outro colaborador  
+- ✅ Acompanhar o status das solicitações (pendente, aprovada ou recusada)  
+
+### 👨‍💼 Para Gestores  
+
+- 👥 Visualizar a escala completa de todos os funcionários  
+- ✔️ Aprovar ou recusar solicitações de troca  
+- 📊 Atualizar automaticamente o calendário oficial após aprovações  
+
+---
+
+## 🧩 Tecnologias Utilizadas  
+
+| Categoria | Tecnologias |
+|------------|--------------|
+| ⚛️ **Front-end** | React JS, HTML5, CSS3, JavaScript (ES6+), Axios |
+| 🖥️ **Back-end (planejado)** | Java com Spring Boot, API REST, JWT |
+| 💾 **Banco de Dados (planejado)** | MySQL |
+| 🛠️ **Outras Ferramentas** | Git / GitHub, Vercel |
+
+---
+
+## 🚀 Status do Projeto  
+
+🔹 **Fase atual:** Desenvolvimento inicial da interface principal (**Home do sistema**)  
+
+### 🔜 Próximas Etapas  
+
+1️⃣ Implementar o **calendário interativo de folgas**  
+2️⃣ Criar o **sistema de login e autenticação**  
+3️⃣ Desenvolver a **API** e integração com o **banco de dados**  
+
+---
+
+## 🧑‍💻 Autor  
+
+**Desenvolvido por:** [Hélio Veloso](https://www.linkedin.com/in/hélio-vianey-carreiro-veloso-filho-a6b756228)  
+
+🎓 Estudante de **Engenharia de Software** — Anhanguera Educacional  
+💼 Apaixonado por **tecnologia, programação e soluções criativas**  
+📧 **Contato:** [helioveloso9@gmail.com](mailto:helioveloso9@gmail.com)  
+
+---
+
+## 💬 Contribuições  
+
+Esse projeto ainda está em fase inicial, mas **qualquer sugestão, correção ou feedback é bem-vindo!** ✨  
+Sinta-se à vontade para **abrir uma _issue_** ou enviar um **pull request**.  
+
+---
+
+<div align="center">
+  <img src="https://github.com/tsoares-dev/tsoares/blob/main/img/github-contribution-grid-snake.svg" alt="Snake animation"/>
+</div>
