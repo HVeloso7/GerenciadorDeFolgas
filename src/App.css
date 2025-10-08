@@ -1,38 +1,129 @@
-.App {
+/* Estilo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f6fa;
+  color: #333;
+}
+
+/* Estrutura principal */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #0077b6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.user-name {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Conteúdo */
+.content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Menu lateral */
+.sidebar {
+  width: 220px;
+  background-color: #023e8a;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.sidebar li {
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar li:hover {
+  background-color: #0077b6;
+}
+
+/* Área principal */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-top-left-radius: 16px;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+}
+
+.main-content h2 {
+  color: #0077b6;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calendar {
+  border: 2px dashed #0077b6;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  color: #444;
+  background: #f8f9fa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Rodapé */
+.footer {
+  text-align: center;
+  background-color: #0077b6;
   color: white;
+  padding: 0.8rem;
+  font-size: 0.9rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsividade */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sidebar ul {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .main-content {
+    border-radius: 0;
   }
 }
