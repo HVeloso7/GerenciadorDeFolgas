@@ -1,74 +1,89 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+<?xml version="1.0" encoding="UTF-8"?>
+<readme>
+  <title>🗓️ Gerenciador de Folgas</title>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <link>
+    🔗 <b>Link para acessar o projeto:</b> 
+    <a href="https://gerenciador-de-folgas.vercel.app">https://gerenciador-de-folgas.vercel.app</a>
+  </link>
 
-## Available Scripts
+  <section title="🧠 Sobre o Projeto">
+    <p>
+      O <b>Gerenciador de Folgas</b> é um sistema em desenvolvimento criado para 
+      <b>organizar, visualizar e gerenciar as folgas mensais dos funcionários</b> de uma empresa.
+    </p>
 
-In the project directory, you can run:
+    <p>
+      O objetivo é facilitar o controle de escalas, promovendo uma <b>melhor gestão de horários</b>,
+      <b>cumprimento da legislação trabalhista</b> e <b>redução de conflitos de agenda</b>.
+    </p>
 
-### `npm start`
+    <p>
+      Além da organização interna, o sistema também auxiliará na <b>montagem das escalas de trabalho</b>,
+      considerando:
+    </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    <list>
+      <item>📍 Regiões e horários específicos de atuação</item>
+      <item>🕒 Duração das jornadas conforme os dias da semana</item>
+      <item>⚖️ Regras de descanso e limites legais de carga horária</item>
+    </list>
+  </section>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <section title="⚙️ Funcionalidades Previstas">
+    <subsection title="👩‍💼 Para Funcionários">
+      <list>
+        <item>📅 Visualizar as folgas do mês em um calendário</item>
+        <item>🔄 Solicitar troca de folga com outro colaborador</item>
+        <item>✅ Acompanhar o status das solicitações (pendente, aprovada ou recusada)</item>
+      </list>
+    </subsection>
 
-### `npm test`
+    <subsection title="👨‍💼 Para Gestores">
+      <list>
+        <item>👥 Visualizar a escala de todos os funcionários</item>
+        <item>✔️ Aprovar ou recusar solicitações de troca</item>
+        <item>📊 Atualizar o calendário oficial após aprovações</item>
+      </list>
+    </subsection>
+  </section>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <section title="🧩 Tecnologias Utilizadas">
+    <list>
+      <item>⚛️ <b>Front-end:</b> React JS, HTML5, CSS3, JavaScript (ES6+), Axios</item>
+      <item>🖥️ <b>Back-end (planejado):</b> Java com Spring Boot, API REST, JWT</item>
+      <item>💾 <b>Banco de Dados (planejado):</b> MySQL</item>
+      <item>🛠️ <b>Outras Ferramentas:</b> Git/GitHub, Vercel</item>
+    </list>
+  </section>
 
-### `npm run build`
+  <section title="🚀 Status do Projeto">
+    <p>
+      🔹 <b>Fase atual:</b> Desenvolvimento inicial da interface principal (Home do sistema)
+    </p>
+    <p><b>Próximas etapas:</b></p>
+    <list>
+      <item>1️⃣ Implementar o calendário interativo de folgas</item>
+      <item>2️⃣ Criar sistema de login e autenticação</item>
+      <item>3️⃣ Desenvolver API e integração com banco de dados</item>
+    </list>
+  </section>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <section title="🧑‍💻 Autor">
+    <p>
+      <b>Desenvolvido por:</b> Hélio Veloso<br/>
+      <b>LinkedIn:</b> 
+      <a href="https://www.linkedin.com/in/hélio-vianey-carreiro-veloso-filho-a6b756228">
+      hélio-vianey-carreiro-veloso-filho-a6b756228</a><br/>
+      🎓 Estudante de Engenharia de Software — Anhanguera Educacional<br/>
+      💼 Apaixonado por tecnologia, programação e soluções criativas
+    </p>
+  </section>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-
->>>>>>> 32965c3539aab5c2ee99cdb356d3405d88541266
+  <section title="💬 Contribuições">
+    <p>
+      Esse projeto ainda está em fase inicial, mas <b>qualquer sugestão, correção ou feedback é bem-vinda</b>.
+      Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+    </p>
+  </section>
+</readme>
