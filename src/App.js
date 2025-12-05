@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import "./App.css";
+import CalendarComponent from "./CalendarComponent";
 
 function App() {
   return (
@@ -21,12 +22,9 @@ function App() {
 
         <main className="main-content">
           <h2>Suas Folgas do Mês</h2>
+
           <div className="calendar">
-            <p>
-              Aqui ficará o calendário com as suas folgas.
-              <br />
-              (Você poderá clicar em um dia para solicitar troca.)
-            </p>
+            <CalendarComponent />
           </div>
         </main>
       </div>
