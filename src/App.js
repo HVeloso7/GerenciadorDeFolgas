@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>Manage Time Off</h1>
+        <h1>Gerenciar o tempo livre!</h1>
         <span className="user-name">Bem-vindo, Hélio</span>
       </header>
 
