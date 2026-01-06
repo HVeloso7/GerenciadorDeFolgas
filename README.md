@@ -5,7 +5,7 @@
 
 ---
 
-## 🧠 Sobre o Projeto
+## Sobre o Projeto
 
 O **Gerenciador de Folgas** é um sistema web em desenvolvimento criado para **organizar, visualizar e gerenciar folgas, escalas e trocas de turno** de colaboradores em uma empresa.
 
@@ -44,7 +44,7 @@ O projeto foi idealizado com uma **arquitetura escalável**, separando responsab
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 ### 📅 Calendário Interativo
 - Visualização por **dia, semana e mês**
@@ -69,20 +69,20 @@ O projeto foi idealizado com uma **arquitetura escalável**, separando responsab
 
 ---
 
-## 🧩 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Camada | Tecnologias |
 |------|-------------|
-| ⚛️ Front-end | React JS, HTML5, CSS3, JavaScript (ES6+) |
-| 📅 UI | FullCalendar |
-| 🔌 Comunicação | Axios |
-| 🖥️ Back-end (planejado) | Java + Spring Boot, API REST, JWT |
-| 💾 Banco de Dados (planejado) | MySQL |
-| 🛠️ DevOps | Git, GitHub, Vercel |
+|  Front-end | React JS, HTML5, CSS3, JavaScript (ES6+) |
+|  UI | FullCalendar |
+|  Comunicação | Axios |
+|  Back-end (planejado) | Java + Spring Boot, API REST, JWT |
+|  Banco de Dados (planejado) | MySQL |
+|  DevOps | Git, GitHub, Vercel |
 
 ---
 
-## 🗂️ Modelagem do Sistema
+##  Modelagem do Sistema
 
 - Modelagem de dados com:
   - Usuários (Admin, Gestor, Colaborador)
@@ -95,7 +95,7 @@ O projeto foi idealizado com uma **arquitetura escalável**, separando responsab
 
 ---
 
-## 🚀 Status do Projeto
+##  Status do Projeto
 
 🔹 **Status atual:**  
 ✅ Interface principal (Home)  
@@ -117,11 +117,11 @@ O projeto foi idealizado com uma **arquitetura escalável**, separando responsab
 
 **Hélio Veloso**  
 🎓 Estudante de **Engenharia de Software** — Anhanguera Educacional  
-💼 Em transição para a área de Tecnologia  
+💼 profissional da Tecnologia  
 ❤️ Apaixonado por **programação, sistemas e soluções criativas**
 
 🔗 LinkedIn:  
-https://www.linkedin.com/in/hélio-vianey-carreiro-veloso-filho-a6b756228  
+www.linkedin.com/in/hélio-veloso-a6b756228 
 
 📧 E-mail:  
 helioveloso9@gmail.com
