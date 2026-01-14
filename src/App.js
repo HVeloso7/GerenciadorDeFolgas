@@ -1,6 +1,6 @@
 import "./App.css";
 import CalendarComponent from "./CalendarComponent";
-import logo from "/logo"; // se não for usar, pode remover
+import logo from "./logo.png"; // se não for usar, pode remover
 
 function App() {
   const menuItems = [
