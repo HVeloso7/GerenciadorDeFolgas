@@ -16,8 +16,7 @@ function App() {
     <div className="app-container">
       <header className="header">
         <div className="header-left">
-          {/* Se quiser mostrar logo, descomente */}
-          {/* <img className="brand-logo" src={logo} alt="Gerenciador de Folgas" /> */}
+          <img className="brand-logo" src={logo} alt="Gerenciador de Folgas" />
           <h1>Gerenciar o tempo livre!</h1>
         </div>
 
