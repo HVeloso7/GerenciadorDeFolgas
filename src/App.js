@@ -1,6 +1,6 @@
 import "./App.css";
 import CalendarComponent from "./CalendarComponent";
-import logo from "./logo.png"; // se não for usar, pode remover
+import logo from "./favicon.ico"; // se não for usar, pode remover
 
 function App() {
   const menuItems = [
@@ -21,7 +21,6 @@ function App() {
         </div>
 
         <div className="header-right">
-          {/* avatar simples (iniciais) — não precisa de imagem */}
           <div className="user-avatar-badge" aria-hidden="true">
             HV
           </div>
